@@ -1,0 +1,55 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint:recommended"
+    ],
+    "rules": {
+      "trailing-comma": true,
+      "semicolon": true,
+      "no-trailing-whitespace": true,
+      "no-duplicate-imports": true,
+      "unnecessary-constructor": true,
+      "triple-equals": true,
+      "no-unused-expression": false,
+      "no-var-requires": true,
+      "no-string-literal": false,
+      "prefer-for-of": false,
+      "max-line-length": [
+        true,
+        130
+      ],
+      "prefer-template": false,
+      "interface-name": [
+        true,
+        "never-prefix"
+      ],
+      "import-name": false,
+      "no-console": {
+        "severity": "warning"
+     },
+      "object-literal-sort-keys": false,
+      "variable-name": {
+        "options": [
+          "ban-keywords",
+          "check-format",
+          "allow-leading-underscore",
+          "allow-pascal-case"
+        ]
+      },
+      "object-literal-key-quotes": [
+        true,
+        "as-needed"
+      ]
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+      "exclude": [
+        "bin",
+        "build",
+        "config",
+        "coverage",
+        "node_modules",
+        "tests"
+      ]
+    }
+  }
